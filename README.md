@@ -19,6 +19,6 @@
 - Used floating point division
 
 #### 4.2. Divide with zero
-- Test: ``divide(15, 0)` → failed
+- Test: `divide(15, 0)` → failed
 - Fix: Added condition `b == 0` to throw Error in method `divide(a, b)` method
 - Throw an error message:"Division by zero"
