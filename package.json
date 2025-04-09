@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "coverage": "npx --no-install c8 node --test",
-    "lint": "npx --no-install eslint ."
+    "coverage": "npx c8 npm test",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
