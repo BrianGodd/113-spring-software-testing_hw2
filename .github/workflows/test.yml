@@ -27,5 +27,8 @@ jobs:
       - name: Run tests with coverage
         run: npm run coverage
 
+      - name: Fix ESLint permission
+        run: chmod +x ./node_modules/.bin/eslint
+
       - name: Lint code
         run: ./node_modules/.bin/eslint .
